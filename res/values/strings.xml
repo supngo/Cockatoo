@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cockatoo</string>
+    <string name="record">record</string>
+    <string name="no_record">No Records Found!</string>
+    <string name="chronometer"></string>
+    <string name="playlist">Playlist</string>
+    <string name="search_hint">Search</string>
+    <string name="search_file">Search file</string>
+    <string name="forward">forward</string>
+    <string name="backward">backward</string>
+    <string name="play">play</string>
+    <string name="next">next</string>
+    <string name="previous">previous</string>
+    <string name="thumbnail">thumbnail</string>
+</resources>

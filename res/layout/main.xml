@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/currency"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/bg_1">
+	
+	<Chronometer
+        android:id="@+id/chronometer" android:layout_centerHorizontal="true" android:layout_marginTop="0dp"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" android:textSize="60dp" android:textColor="@color/green1">
+    </Chronometer>
+    
+	<LinearLayout android:id="@+id/songThumbnail" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:paddingTop="10dp" android:paddingBottom="10dp" android:gravity="center" android:layout_below="@id/chronometer">
+        
+    	<ImageView android:layout_width="wrap_content" android:contentDescription="@string/thumbnail"
+    	    android:layout_height="wrap_content" android:src="@drawable/cockatoo2"/>    
+    </LinearLayout>
+    
+	<LinearLayout android:id="@+id/player_footer_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" 
+	    android:orientation="horizontal" android:layout_alignParentBottom="true"
+	   	android:layout_centerHorizontal="true" android:gravity="center">
+    		
+	<ImageButton android:id="@+id/record" 
+	  	android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+	    android:contentDescription="@string/record" 
+	    android:src="@drawable/record" android:paddingBottom="20dp"/>
+		
+	</LinearLayout>
+	
+</RelativeLayout>
